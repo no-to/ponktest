@@ -1,6 +1,7 @@
 <table border="1">
 <tr><th>名前</th><th>価格</th></tr>
 <?php
+    //一覧表示
   $pdo = new PDO("mysql:dbname=men", "root","vagrant");
   $st = $pdo->query("SELECT * FROM udon");
   while ($row = $st->fetch()) {
