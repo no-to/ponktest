@@ -4,3 +4,4 @@
   $st->execute(array($_POST['name'], $_POST['price']));
 ?>
 レコードを追加しました。
+aaaaa
